@@ -385,4 +385,4 @@ console.log(chalk.bold.green(`AINZ-PACK SUCCESSFULLY LAUNCHED!!`));
         const botData = {};
         botData.models = models
         onBot(botData);
-    } catch (error) { logger('successfully connected to database.', "[ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ] •") }})();
+    } catch (error) { logger('Sorry can\'t connect to database.', "[ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 ] •") }})();
